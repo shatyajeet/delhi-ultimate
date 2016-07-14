@@ -1,6 +1,6 @@
 import React from 'react';
 
-const imgFolder = '../../../../img';
+import './home.scss';
 
 const teams = [
 	{name: 'Ashoka', img: require('img!../../../../img/ashoka.jpg')},

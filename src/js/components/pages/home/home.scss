@@ -9,6 +9,8 @@
   }
   .overlay {
     position: absolute;
+    font-size: 28px;
+    padding: 10px;
     top: 100%;
     width: 100%;
     background-color: rgba(1, 1, 1, 0.4);
@@ -29,4 +31,13 @@
     -o-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
   }
+}
+
+.banner-image {
+  background: url("../../../../img/banner.jpg") no-repeat 0 -150px;
+  height: 400px;
+}
+
+.header {
+  margin-top: 350px;
 }
