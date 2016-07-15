@@ -8,8 +8,8 @@ import './header.scss';
 const iconElementRight = (
 	<ul className="right-nav">
 		<li><Link to="#">About</Link></li>
-		<li><Link to="#">Contact Us</Link></li>
-		<li><Link to="https://delhiultimateblog.wordpress.com/">Blog</Link></li>
+		<li><Link to="http://www.facebook.com/DelhiUltimate/">Contact Us</Link></li>
+		<li><Link to="http://delhiultimateblog.wordpress.com/">Blog</Link></li>
 	</ul>
 );
 

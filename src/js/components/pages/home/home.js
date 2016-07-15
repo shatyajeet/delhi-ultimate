@@ -35,7 +35,7 @@ const Home = () => {
 					<p>Home of the Ultimate Frisbee teams of Delhi NCR!</p>
 				</div>
 				<div>
-					<p>Delhi Ultimate has been growing in heaps and bounds over past two years. The community has been transitioning and developing into something bigger and special. It has grown from being a community of one team to now many fold.</p>
+					<p>Delhi Ultimate has been growing in heaps and bounds over past few years. The community has been transitioning and developing into something bigger and special. It has grown from being a community of one team to now many fold.</p>
 					<p>There are quite a few teams fighting to be the best ultimate frisbee team in the NCR Region.</p>
 					<h4 className="center">Teams</h4>
 					<div className="row">
