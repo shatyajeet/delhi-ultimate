@@ -1,0 +1,34 @@
+.team-thumb {
+  cursor: pointer;
+  position: relative;
+  max-height: 245px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  &:hover > .overlay {
+    top: 0;
+  }
+  .overlay {
+    position: absolute;
+    font-size: 28px;
+    padding: 10px;
+    top: 100%;
+    width: 100%;
+    background-color: rgba(1, 1, 1, 0.4);
+    height: 100%;
+    -webkit-transition-property: top;
+    -moz-transition-property: top;
+    -ms-transition-property: top;
+    -o-transition-property: top;
+    transition-property: top;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -ms-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-timing-function: ease-out;
+    -ms-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+}

@@ -1,7 +1,13 @@
+var webpack = require('webpack');
+
 var HTMLWebpackPlugin = require('html-webpack-plugin');
 var HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
   template: __dirname + '/src/index.html',
   inject: 'body'
+});
+
+var envConfig = new webpack.DefinePlugin({
+  "process.env.NODE_ENV": JSON.stringify(process.env.NODE_ENV)
 });
 
 module.exports = {
@@ -9,11 +15,13 @@ module.exports = {
   entry: './index.js',
   output: {
     filename: 'app.[hash].js',
-    path: __dirname + '/dist'
+    path: __dirname + '/dist',
+		publicPath: '/'
   },
   devServer: {
     inline: true,
-    port: 3334
+    port: 3334,
+    historyApiFallback: true
   },
   module: {
     loaders: [{
@@ -31,5 +39,5 @@ module.exports = {
 			loader: 'url?limit=10000!img?progressive=true'
 		}]
   },
-  plugins: [HTMLWebpackPluginConfig]
+  plugins: [HTMLWebpackPluginConfig, envConfig]
 };

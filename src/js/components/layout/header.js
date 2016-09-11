@@ -7,8 +7,9 @@ import './header.scss';
 
 const iconElementRight = (
 	<ul className="right-nav">
+		<li><Link to="/teams">Teams</Link></li>
 		<li><Link to="#">About</Link></li>
-		<li><a href="https://www.facebook.com/DelhiUltimate/" target="_blank">Contact</a></li>
+		<li><a href="https://www.facebook.com/DelhiUltimate/" target="_blank">Contact Us</a></li>
 		<li><a href="https://delhiultimateblog.wordpress.com/" target="_blank">Blog</a></li>
 	</ul>
 );
