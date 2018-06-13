@@ -14,7 +14,8 @@
   "author": "Satyajeet Parida <shatyajeet@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "material-ui": "^0.15.2",
+    "babel-core": "^6.26.3",
+    "material-ui": "^0.20.1",
     "materialize-css": "^0.97.6",
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
