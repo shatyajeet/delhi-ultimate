@@ -1,5 +1,6 @@
 .banner-image {
-  background: url("../../../../img/banner.jpg") no-repeat 0 -150px;
-  background-size: cover;
-  height: 600px;
+  img {
+    width: 100%;
+    height: auto;
+  }
 }

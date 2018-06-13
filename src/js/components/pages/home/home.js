@@ -5,7 +5,9 @@ import './home.scss';
 const Home = () => {
   return (
     <div>
-			<div className="banner-image"></div>
+			<div className="banner-image">
+        <img alt='banner' src='http://res.cloudinary.com/dhahnivds/image/upload/c_crop,h_912,y_152/v1528881163/banner_btixti.jpg' />
+      </div>
 			<div className="container">
 				<div className="center">
 					<h3>Delhi Ultimate</h3>
