@@ -15,7 +15,7 @@ module.exports = {
   entry: './index.js',
   output: {
     filename: 'app.[hash].js',
-    path: __dirname + '/dist',
+    path: __dirname + '/docs',
 		publicPath: '/'
   },
   devServer: {
