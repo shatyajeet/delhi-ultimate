@@ -54,6 +54,7 @@ dist
 
 # production
 /build
+/old-build
 
 # misc
 .DS_Store
