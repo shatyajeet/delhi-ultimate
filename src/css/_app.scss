@@ -1,0 +1,13 @@
+.app {
+  .app-body {
+    padding-top: 64px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .app {
+    .app-body {
+      padding-top: 56px;
+    }
+  }
+}
