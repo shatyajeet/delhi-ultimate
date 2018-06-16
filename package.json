@@ -18,7 +18,7 @@
     "prebuild": "rimraf old-build && mv build old-build || true",
     "build-js": "react-scripts build",
     "build": "npm-run-all build-css build-js",
-    "postbuild": "cp -R build/* docs/.",
+    "postbuild": "cp -R build/* docs/. && git add docs",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },

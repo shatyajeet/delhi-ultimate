@@ -2,8 +2,6 @@ import React from 'react';
 
 import './home.css';
 
-const HEIGHT = window.innerHeight;
-
 const Home = () => {
   return (
     <div className="home">
