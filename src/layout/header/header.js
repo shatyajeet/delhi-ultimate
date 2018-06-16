@@ -13,7 +13,7 @@ const Header = () => {
           </Link>
         </section>
         <section
-          className="mdc-top-app-bar__section mdc-top-app-bar__section--align-end"
+          className="mdc-top-app-bar__section mdc-top-app-bar__section--align-end hide-on-mobile"
           role="toolbar"
         >
           <NavLink

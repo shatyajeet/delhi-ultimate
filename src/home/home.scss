@@ -4,9 +4,9 @@
   .jumbotron {
     background-image: url('http://res.cloudinary.com/dhahnivds/image/upload/v1528881163/banner_btixti.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0 -220px;
+    background-size: 100%;
     position: relative;
+    height: calc(100vh - 64px);
     .jumbotron-overlay {
       position: absolute;
       top: 0;
@@ -19,7 +19,7 @@
     .jumbotron-content {
       position: absolute;
       left: 100px;
-      bottom: 200px;
+      bottom: 20%;
       z-index: 1;
       .jumbotron-content__text {
         width: 700px;
@@ -35,6 +35,28 @@
         height: 50px;
         font-size: 20px;
         font-weight: 600;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .home {
+    .jumbotron {
+      height: calc(100vh - 56px);
+      background-image: url('http://res.cloudinary.com/dhahnivds/image/upload/c_crop,g_west,h_682,w_375,x_460,y_100/v1528881163/banner_btixti.jpg');
+      background-size: auto auto;
+      background-position: 10% 20%;
+      .jumbotron-content {
+        left: 10%;
+        .jumbotron-content__text {
+          font-size: 1em;
+          width: 80%;
+        }
+        button {
+          width: 40%;
+          font-size: 1em;
+        }
       }
     }
   }
