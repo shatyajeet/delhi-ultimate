@@ -2,32 +2,32 @@
   "teams": [
     {
       "name": "Ashoka",
-      "img": "ashoka.jpg",
+      "img": "ashoka",
       "description": "A team comprising of students from Ashoka University."
     },
     {
       "name": "GK MAD",
-      "img": "gk-mad.jpg",
+      "img": "gk-mad",
       "description": "A team made up of children living in GK 1, Zamrudpur Area."
     },
     {
       "name": "Hawabaaz",
-      "img": "hawabaaz.jpg",
+      "img": "hawabaaz",
       "description": "A team comprising of students from St. Stephens’s College, Delhi University"
     },
     {
-      "name": "Stray Dogs in Sweaters",
-      "img": "stray-dogs.jpg",
+      "name": "SDIS",
+      "img": "stray-dogs",
       "description": "The oldest team in Delhi Ultimate comprising of the most experienced players in the circuit. Many SDIS players are currently involved in developing the sport and acting as mentors to the newer teams in the city."
     },
     {
       "name": "Underdogs",
-      "img": "underdogs.jpg",
+      "img": "underdogs",
       "description": "A beginner team comprising of entry-level players who want to play the sport competitively."
     },
     {
-      "name": "Gurgaon Ultimate",
-      "img": "gurgaon.jpg",
+      "name": "Gurgaon",
+      "img": "gurgaon",
       "description": "Comprises of mainly American Express employees along with some ther players from Gurgaon. It is still in its development phase and a few senior players have been working very hard to mobilize Ultimate in Gurgaon."
     }
   ]
